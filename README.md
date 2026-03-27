@@ -23,7 +23,7 @@ Install JDK 16 or higher. Set `JAVA_HOME` environment variable to where it is lo
 - `gradlew tools:proc` - Processes raw sprites and generates some other needed ones; will be automatically called if `./main/assets/sprites` directory isn't found.
 - `gradlew main:deploy` - Builds the mod `.jar` file for desktop only.
 - `gradlew main:deployDex` - Builds the mod `.jar` file for both desktop and Android _(see [**Android**](#Building-for-Android))_.
-
+ 
 #### Linux/MacOS
 
 <m>_Replace `gradlew` with `./gradlew`_</m>
